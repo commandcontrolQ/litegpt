@@ -38,6 +38,8 @@ The following operating systems support Java SE 6:
 ## Notes and Issues
 
 There are a few quirks and issues with the current implementation of LiteGPT:
+- After every response, the window will scroll to the top immediately. **This is a known quirk and will be fixed.**
+    - Responses however will not be printed character-by-character (similar to the official site). This is an intentional wontfix.
 - Due to the way the AI is queried, there is no form of memory. **This is a known quirk and will not be fixed.**
 - LaTeX formatting is not supported. **This is a known issue but will not be fixed.**
 - URLs can only be clicked and opened if they are embedded in Markdown. **This is a known issue and a fix is currently being worked on.**
